@@ -1,8 +1,9 @@
-package telran.spring.stockmarket.service;
+package telran.spring.stockmarket.controller;
 
 import java.time.LocalDate;
 
 import telran.spring.stockmarket.dto.DataDto;
+import telran.spring.stockmarket.service.DataService;
 
 public class DataController {
 	DataService dataService;
